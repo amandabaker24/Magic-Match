@@ -27,10 +27,10 @@ button:hover {
 }
 .front,
 .back {
-  width: 164px;     /* change to 48/72/96 etc */
+  width: 164px;     
   height: 164px;
-  object-fit: contain;   /* don’t crop */
-  image-rendering: pixelated; /* crisp pixel-art */
+  object-fit: contain;  
+  image-rendering: pixelated; 
   display: block;
 }
 
