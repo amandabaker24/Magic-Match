@@ -1,0 +1,39 @@
+.App {
+  max-width: 860px;
+  margin: 40px auto;
+}
+
+button {
+  background: none;
+  border: 2px solid #16c70a;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #42cc38; 
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+}
+button:hover {
+  background: #06451a;
+  color: #fff;
+}
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: .1fr .1fr .1fr .1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  
+}
+.front,
+.back {
+  width: 164px;     /* change to 48/72/96 etc */
+  height: 164px;
+  object-fit: contain;   /* don’t crop */
+  image-rendering: pixelated; /* crisp pixel-art */
+  display: block;
+}
+
+
+
+

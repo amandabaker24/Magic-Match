@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&display=swap');
+body {
+  margin: 0;
+  font-family: "Bitcount Single Ink", system-ui;
+  font-size: 1.5em;
+  text-align: center;
+  background: #1b1523;
+  color: #fff;
+}
